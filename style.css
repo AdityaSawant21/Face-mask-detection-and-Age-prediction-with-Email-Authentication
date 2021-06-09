@@ -1,0 +1,145 @@
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:-webkit-linear-gradient(left, #7579ff, #b224ef);
+  font-family: 'Nunito', sans-serif;
+}
+
+input, button{
+  border:none;
+  outline: none;
+  background: none;
+}
+
+.cont{
+  overflow: hidden;
+  position: relative;
+  width: 900px;
+  height: 550px;
+  background: #fff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.form{
+  position: relative;
+  width: 640px;
+  height: 100%;
+  padding: 50px 30px;
+  -webkit-transition:-webkit-transform 1.2s ease-in-out;
+  transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
+
+h2{
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+button{
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 36px;
+  border-radius: 30px;
+  color: #000000;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.submit{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Nunito', sans-serif;
+  background: -webkit-linear-gradient(left, #7579ff, #b224ef);
+}
+
+.submit:hover{
+  background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+}
+
+.sub-cont{
+  overflow: hidden;
+  position: absolute;
+  left: 640px;
+  top: 0;
+  width: 900px;
+  height: 100%;
+  padding-left: 260px;
+  background: #fff;
+  -webkit-transition: -webkit-transform 1.2s ease-in-out;
+  transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out;
+}
+
+
+.img{
+  overflow: hidden;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 260px;
+  height: 100%;
+  padding-top: 360px;
+}
+
+.img:before{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 900px;
+  height: 100%;
+  background-image: url(bphoto/bg.jpg);
+  background-size: cover;
+  transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
+
+.img:after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+}
+
+.img-text{
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+  color: #fff;
+  -webkit-transition:-webkit-transform 1.2s ease-in-out;
+  transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
+
+.img-text h2{
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.img-text p{
+  font-size: 14px;
+  line-height: 1.5;
+}
