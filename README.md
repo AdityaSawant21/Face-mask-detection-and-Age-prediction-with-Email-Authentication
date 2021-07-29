@@ -1,16 +1,15 @@
 # Face-mask-detection-and-Email-Alert-System
-This is a Face mask detection Email Alert System using Tkinter , Tensorflow and Opencv.
+This is a Face mask detection Email Alert System using Deep Learning.
 
 Problem: Today Face Mask has become compulsory for all the people in the world, But, some people due to their negligence of not wearing the mask, making the situation severe. So, checking everyone 24hrs in an organization is a bit tedious task. So there comes Automated Face Mask Detection Alert System.
 
 ### TECH/FRAMEWORK USED:
-- Xampp Server
 - OPENCV
 - TENSORFLOW
 - Tkinter
 - KERAS
-- FACE DETECTOR
 - MOBILE NET V2
+- Xampp Server
 
 Objective: To Make a LIVE_STREAM MASK DETECTION SYSTEM Where It detects and recognizes the face and warns that person and also send mail alerts to the admin when it finds someone without mask.
 
