@@ -7,6 +7,7 @@ Problem: Today Face Mask has become compulsory for all the people in the world, 
 - TENSORFLOW
 - Tkinter
 - KERAS
+- Numpy
 - MOBILE NET V2
 - Xampp Server
 
