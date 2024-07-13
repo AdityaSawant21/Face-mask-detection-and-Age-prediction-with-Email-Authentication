@@ -1,7 +1,7 @@
 # Face mask detection and age prediction with Email Authentication using Deep Learning.
 
 ## Problem: 
-In 2020, Face masks became compulsory for everyone worldwide. However, some people due to their negligence of not wearing the mask, make the situation severe. So for organizations, manually checking everyone 24hr is a bit tedious task. So here comes an Automated Face Mask detection system and age prediction with Email Authentication which is built using the Deep Learning technique called as Convolutional Neural Networks (CNN). This CNN Model is built using the TensorFlow framework and the OpenCV library which is highly used for real-time applications.
+In 2020, Face masks became compulsory for everyone worldwide. However, some people due to their negligence of not wearing the mask, make the situation severe. So for organizations, manually checking everyone 24 hr is a bit tedious task. So here comes an Automated Face Mask detection system and age prediction with Email Authentication which is built using the Deep Learning technique called Convolutional Neural Networks (CNN). This CNN Model is built using the TensorFlow framework and the OpenCV library which is highly used for real-time applications.
 
 ### TECH/FRAMEWORK USED:
 - OPENCV
